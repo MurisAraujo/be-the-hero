@@ -1,10 +1,11 @@
 import React from 'react';
 
+import './global.scss'
+import Router from './routes'
+
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Router/>
   );
 }
 
